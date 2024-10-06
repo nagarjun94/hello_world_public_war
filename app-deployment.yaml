@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: shstechacademynew.jfrog.io/appa/frontend/test-managment:8
+        image: trialann9ye.jfrog.io/app-generic-local/appb:1
         ports:
         - containerPort: 8080
