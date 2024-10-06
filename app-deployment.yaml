@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: trialann9ye.jfrog.io/artifactory/app-generic-local/appb/webapp-4.war:2
+        image: trialann9ye.jfrog.io/frontend/appb:10
         ports:
         - containerPort: 8080
