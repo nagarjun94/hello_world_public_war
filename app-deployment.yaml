@@ -32,4 +32,6 @@ spec:
       - name: devopsapp
         image: trialann9ye.jfrog.io/frontend/appb:24
         ports:
+        imagePullSecrets:
+      - name: jfrog-registry
         - containerPort: 8080
