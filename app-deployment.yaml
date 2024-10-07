@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: trialann9ye.jfrog.io/frontend/appb:23
+        image: trialann9ye.jfrog.io/frontend/appb:24
         ports:
         - containerPort: 8080
